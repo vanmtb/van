@@ -197,7 +197,7 @@ input{
     float: left;
 }
 .detail{
-    width: 100%;
+   width: 100%;
 }
 .detail> .detail-img{
     width: 40%;
@@ -205,5 +205,30 @@ input{
 }
 .detail> .detail-thongtin{
     width: 60%;
-    float: right;
+    float: left;
+}
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+  }
+  input[type="text"]:focus{
+    width:500px; 
+}
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+
+    transition:0.6s ease-in-out;
+  }
+  input[type="text"]:focus{
+    width:500px; 
+    background-color:lightpink;
 }
